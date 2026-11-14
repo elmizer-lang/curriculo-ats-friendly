@@ -390,10 +390,17 @@ Toda a experiência deve girar em torno de um único fluxo:
 
 Colar Vaga → Colar Currículo → Analisar → Ver Match Score → Ver ATS Score → Ver Recomendações → Gerar ATS Friendly → Exportar DOCX
 
+# Como funciona o app
+O app é simples e procura analisar currículos de maneira rápida e em poucos clics. Na primeira tela tem um botão CTA para ir a tela de análise. Já na segunda tela é possível colar a vaga de preferência (por exemplo, do linkedIn), e colar o currículo em formato texto (futuramente será possível subir ele em formato PDF para que a conversão a texto seja automática). Com o segundo clic já vamos à terceira tela, a tela dos resultados.
+
+Na tela do resultados podemos ver a adequação do perfil à vaga em percentagem. E também a adequação do CV ao sistema ATS. É possível identificar fortalezas e debilidades através das palavras-chave encontradas e as faltantes. É possível também ver quais são as hard skills e soft kills pedidas pela vaga que aparecem no currículo, com selector de categoria.
+
+Além disso, o sistema entrega uma serie de insight e dicas para melhorar o currículo em relação à vaga. E finalmente tem a opção de exportar o arquivo em formato Docx, e até pode ser editado antes de exportar ele. Algumas funcionalidades como exportar em PDF e adicionar palavras chave faltantes ficaram de fora do MVP.
+
 # Ajustes após a primeira geração
 Eu quis fazer uma versão simples do aplicativo web, que execute somente o analise do currículo. Pelo que vi no exemplo da aula, dá para adicionar seções de acompanhamento nas vagas em que o usuário se candidatou. Mas também essas melhoras precisam de criação de usuário e login, coisa que eu decidi manter simples para testar o MVP, e também para consumir menos créditos do Lovable, considerando que estou criando três aplicativos ao mesmo tempo para finalizar o curso da Dio. Então, com o intuito de fazer o MVP para testar deixei essa funcionalidade de fora, mesmo assim, acho que a minha proposta pode dispensar disso.
 
-O que eu faria seria melhorar o apartado visual, trabalhar o logotipo, talvez trabalhar com fotografia na landing page. Além disso, gostaria que ao gerar o curriculo ATS friendly tenha opção de adicionar automáticamente as palavras chave faltante (ou que usuário possa escolher quais palavras ou conhecimentos que faltam no CV mas ele tem, quer adicionar). 
+O que eu faria seria melhorar o apartado visual, trabalhar o logotipo, talvez trabalhar com fotografia na landing page. Também gostaria de poder adicionar o curriculo em formato PDF e que a IA transforme ele em texto. Além disso, gostaria que ao gerar o curriculo ATS friendly tenha opção de adicionar automáticamente as palavras chave faltante (ou que usuário possa escolher quais palavras ou conhecimentos que faltam no CV mas ele tem, quer adicionar). 
 
 Por falta de créditos, no consegui atualizar nesse ponto. Também gostaria exportar ele em formato PDF. Essas seriam as duas alterações que eu faria.
 
